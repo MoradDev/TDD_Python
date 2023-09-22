@@ -9,7 +9,7 @@ class MonTest(unittest.TestCase):
         pass
 
     def test_aire_cercle(self):
-        with self.subTest:
+        with self.subTest(self):
             self.assertEqual(sample.aire_cercle(0), 0)
 
 
