@@ -1,3 +1,4 @@
 
 class MaClass :
-    pass
+    def __init__(self, nom):
+        self.nom=nom
