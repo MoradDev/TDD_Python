@@ -1,4 +1,6 @@
 import unittest
 
 class MonTest(unittest.TestCase):
-    pass
+    
+    def setUp(self):
+        pass
