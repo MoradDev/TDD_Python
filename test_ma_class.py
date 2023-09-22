@@ -1,16 +1,18 @@
 import unittest
 from ma_class import *
 
-sample=MaClass("premiere_class")
+
 
 class MonTest(unittest.TestCase):
     
     def setUp(self):
-        pass
+        print("Nouveau Test")
+        self.instance=MaClass("premiere_class")
 
     def test_aire_cercle(self):
+        '''tests de aire_cercle()'''
         with self.subTest(self):
-            self.assertEqual(sample.aire_cercle(0), 0)
+            self.assertEqual(self.instance.aire_cercle(0), 0)
 
 
 if __name__ == "__main__":
