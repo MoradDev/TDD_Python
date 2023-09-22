@@ -6,4 +6,4 @@ class MaClass :
         self.nom=nom
 
     def aire_cercle(self,rayon):
-        return math.pi*rayon*rayon # type: ignore
+        return math.pi*rayon*rayon
