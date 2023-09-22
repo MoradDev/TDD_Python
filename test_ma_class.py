@@ -14,6 +14,9 @@ class MonTest(unittest.TestCase):
         with self.subTest(self):
             self.assertEqual(self.instance.aire_cercle(0), 0)
 
+    def tearDown(self):
+        print("Fin de ce test")
+
 
 if __name__ == "__main__":
     unittest.main()
